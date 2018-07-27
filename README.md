@@ -1,1 +1,62 @@
-# Tet
+Ido Weitzman, ID: 311126239
+Saar Avraham, ID: 203436639
+
+
+--------Question 2--------
+We implemented light functions (without for's, while's, switche's) in the header, to improve the program efficiency (inline functions).
+
+- Sounds: 
+TO ACTIVATE THE SOUND EFFECTS PLEASE PUT THE WAV FILES PROVIDED IN THE PATH: "C:\\"
+
+
+--------Question 1--------
+
+Guidelines:
+
+- Keys:
+Left = 'a', Down = 'x', Right = 'd', Joker-Stop = 's', Immidiate Down = 'z', Rotate Right = Space Bar
+The game is "Caps Lock Proof".
+NOTE: We implemented move down key as the Tetris game in the given link has it (not to be confused with Immidiate Down key).
+
+- Score, full rows and Bomb:
+Player will be awarded with 100 points for a single row that has been filled with a regular type shape (Line or Square), 
+but only 50 points if the last shape to fill the row was a joker.
+The game rewards multiple row clears: for Double Row Clear = 300 points, for Triple Row Clear = 500 points and etc'.
+
+Once a row was cleaned, any row above it will be moved one row downwards accordingly.
+The Bomb shape will penalize the player for every cell the will be exploded. The penalty: -50 points for every cell.
+The minimum score in the game at all times is: 0. 
+
+Menu:
+The user will have to press '1' to start a game. Once Pause button was pressed '2', the game will wait for another '2' to be pressed to continue
+the game. NOTE: WHEN THE GAME IS OVER, THE PROGRAM WILL BE FINISHED ASWELL. (It was not implied diffrently in the question).
+
+- Sounds: 
+TO ACTIVATE THE SOUND EFFECTS PLEASE PUT THE WAV FILES PROVIDED IN THE PATH: "C:\\"
+
+- Shape chars:
+Lines,Sqaures are made of asterisk ('*') and Bombs are made of 'At' sign ('@').
+
+
+Features:
+
+- 'Next Shape' Feature:
+The game let the player know what will be the next shape at every turn.
+
+- Sound effects:
+The game offers various sound effects for specific situations: Cleaning a line, exploding (bomb) and etc'.
+NOTE: PLEASE PUT THE MUSIC IN THE PATH: "C:\\"!
+(Otherwise, unfortunately, the sounds will not be activated)
+
+- Random shapes:
+The game generate shapes to create everytime a shape has reached the bottom of the tetris board or unable to move. 
+We wanted realistic game as much as possible so we set chances for the shape 'x' to be:
+40% Line, 40% Square, 10% Joker and 10% Bomb.
+
+- Larger Font: 
+To make game look visually better, we increased the font size of the chars it prints to the console Window.
+Yet we still use the original 10X15 board size as required in the question.
+
+
+We hope you will enjoy the Tetris game! :)
+Ido and Saar
